@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simulador de Gerrymandering</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li>
+          <a href="#">Provincias</a>
+          <ul class="submenu">
+            <li><a href="#">Buenos Aires</a></li>
+            <li><a href="#">Ciudad Autónoma de Buenos Aires</a></li>
+            <li><a href="#">Catamarca</a></li>
+            <li><a href="#">Chaco</a></li>
+            <li><a href="#">Chubut</a></li>
+            <li><a href="#">Córdoba</a></li>
+            <li><a href="#">Corrientes</a></li>
+            <li><a href="#">Entre Rios</a></li>
+            <li><a href="#">Formosa</a></li>
+            <li><a href="#">Jujuy</a></li>
+            <li><a href="#">La Pampa</a></li>
+            <li><a href="#">La Rioja</a></li>
+            <li><a href="#">Mendoza</a></li>
+            <li><a href="#">Misiones</a></li>
+            <li><a href="#">Neuquén</a></li>
+            <li><a href="#">Rio Negro</a></li>
+            <li><a href="#">Salta</a></li>
+            <li><a href="#">San Juan</a></li>
+            <li><a href="#">San Luis</a></li>
+            <li><a href="#">Santa Cruz</a></li>
+            <li><a href="#">Santa Fe</a></li>
+            <li><a href="#">Santiago del Estero</a></li>
+            <li><a href="#">Tierra del Fuego</a></li>
+            <li><a href="#">Tucumán</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="principal">
+      <section id="seccion1">
+        <h1>SIMULADOR DE GERRYMANDERING</h1>
+        <p>
+          El objetivo de este simulador es poder ejemplificar de forma didáctica
+          e interactiva sobre los flagelos reales que afectan a los sistemas
+          electorales en nuestro país, al recurrir al redistritamiento
+          (gerrymandering) para generar falsos ganadores o divisores de
+          bastiones electorales opositores. Estas tácticas han proliferado en
+          las democracias occidentales, por lo que su temprana detección sirve
+          para valorizar el valor de cada voto.
+        </p>
+        <br />
+        <h2>¿Cómo funciona?</h2>
+        <p>
+          A través de cálculos simples de divisiones y promedios, el simulador
+          mostrará cuál será el índice de proporcionalidad determinado por la
+          cantidad de bancas y la cantidad de votantes. El usuario también podrá
+          modificar con líneas diferentes bancas para generar diferentes
+          mayorías.
+        </p>
+        <br />
+        <p>
+          El usuario ingresará la población por distrito electoral y el número
+          de distritos totales en la provincia elegida. Luego podrá elegir la
+          cantidad de votantes de uno u otro partido, tomando como 100% la
+          población ingresada previamente, y podrá elegir la cantidad de
+          distritos ganados por uno u otro partido, tomando como 100% el número
+          de distritos ingresados previamente. De esa manera, los límites de
+          cada distrito se ajustarán para acomodarse a esas preferencias
+          ingresadas.
+        </p>
+      </section>
+      <aside id="mapaGerry">
+        <a href="https://mazore.github.io/gerrymandering-js/"
+          ><img src="multimedia/gerrymandering.png" alt="gerrymandering-mapa"
+        /></a>
+      </aside>
+      <div id="graficos">
+        <img
+          src="multimedia/gerry population.png"
+          alt="gerrymandering-poblacion"
+        />
+      </div>
+    </div>
+    <br />
+    <div class="definicion">
+      <h2>¿Qué es el Gerrymandering?</h2>
+      <p>
+        Gerrymandering es un término de ciencia política referido a una
+        manipulación de las circunscripciones electorales de un territorio,
+        uniéndolas, dividiéndolas o asociándolas, con el objeto de producir un
+        efecto determinado sobre los resultados electorales. Puede ser usado
+        para mejorar o empeorar los resultados de un determinado partido
+        político o grupo étnico, lingüístico, religioso o de clase. Es, por
+        tanto, una técnica destinada a quebrar la imparcialidad de un sistema
+        electoral determinado. En términos técnicos, se trata de un caso de
+        <i>malapportionment</i> (desproporcionalidad territorial): el porcentaje
+        de escaños de un distrito no coincide con el porcentaje de población del
+        mismo, lo que da lugar a que algunos distritos estén sobrerrepresentados
+        y otros infrarrepresentados.
+      </p>
+      <br />
+      <br />
+      <h2>¿Qué es el Malapportionment?</h2>
+      <p>
+        Por definición existe <i>malapportionment</i> (o desproporcionalidad
+        territorial) cuando hay una desviación entre el porcentaje de escaños
+        que se eligen en un distrito y el porcentaje de la población con derecho
+        a sufragio pasivo.
+      </p>
+    </div>
+  </body>
+</html>
